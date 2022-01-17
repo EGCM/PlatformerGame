@@ -77,6 +77,43 @@ theme = ExtResource( 2 )
 text = "Euclid Glen C. Magno"
 align = 2
 
+[node name="VBoxContainer3" type="VBoxContainer" parent="."]
+margin_left = 20.0
+margin_top = 20.0
+margin_right = 256.0
+margin_bottom = 136.0
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="VBoxContainer3"]
+margin_top = 6.0
+margin_right = 236.0
+margin_bottom = 30.0
+size_flags_vertical = 6
+theme = ExtResource( 2 )
+text = "W = JUMP"
+
+[node name="Label2" type="Label" parent="VBoxContainer3"]
+margin_top = 46.0
+margin_right = 236.0
+margin_bottom = 70.0
+size_flags_vertical = 6
+theme = ExtResource( 2 )
+text = "A = LEFT"
+
+[node name="Label3" type="Label" parent="VBoxContainer3"]
+margin_top = 86.0
+margin_right = 236.0
+margin_bottom = 110.0
+size_flags_vertical = 6
+theme = ExtResource( 2 )
+text = "D = RIGHT"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="MenuBlip" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 3 )
 
